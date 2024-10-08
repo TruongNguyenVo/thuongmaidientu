@@ -1,0 +1,71 @@
+
+---Downloaded files---
+The import files for: Honrix were successfully downloaded!
+Initial max execution time = 120
+Files info:
+Site URL = http://localhost/thuongmaidientu
+Data file = D:\xampp\htdocs\thuongmaidientu/wp-content/uploads/2024/10/demo-content-import-file_2024-10-08__07-51-50.xml
+Widget file = D:\xampp\htdocs\thuongmaidientu/wp-content/uploads/2024/10/demo-widgets-import-file_2024-10-08__07-51-50.json
+Customizer file = D:\xampp\htdocs\thuongmaidientu/wp-content/uploads/2024/10/demo-customizer-import-file_2024-10-08__07-51-50.dat
+Redux files:
+not defined!
+
+------
+New AJAX call!
+
+
+---Importing widgets---
+Top Left : 
+
+Khối - No Title - Imported
+
+Top Center : 
+
+Khối - No Title - Imported
+
+Top Right : 
+
+Khối - No Title - Imported
+
+Header Contact : 
+
+Khối - No Title - Imported
+
+Header Navigation Area : 
+
+Khối - No Title - Imported
+
+Shop Left Sidebar : 
+
+Khối - No Title - Imported
+Khối - No Title - Imported
+
+Footer Column 1 : 
+
+Khối - No Title - Imported
+Khối - No Title - Imported
+Khối - No Title - Imported
+
+Footer Column 2 : 
+
+Menu - Let Us Help You - Imported
+
+Footer Column 3 : 
+
+Khối - No Title - Imported
+
+Copyright Widgets : 
+
+Khối - No Title - Imported
+
+Mobile Top Bar : 
+
+Khối - No Title - Imported
+
+
+
+---Importing customizer settings---
+Customizer settings import finished!
+
+---ocdi/after_import---
+
