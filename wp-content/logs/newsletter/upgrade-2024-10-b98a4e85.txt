@@ -1,0 +1,38 @@
+07-10-2024 16:10:07 - INFO  - 8.5.4 - 82.6 MB/512 MB - nguyenvo > Start upgrade from 0.0.0
+07-10-2024 16:10:07 - INFO  - 8.5.4 - 82.9 MB/512 MB - nguyenvo > Array
+(
+    [`wp_newsletter_emails`] => Created table `wp_newsletter_emails`
+)
+
+07-10-2024 16:10:07 - INFO  - 8.5.4 - 82.9 MB/512 MB - nguyenvo > Array
+(
+    [`wp_newsletter_sent`] => Created table `wp_newsletter_sent`
+)
+
+07-10-2024 16:10:07 - INFO  - 8.5.4 - 82.9 MB/512 MB - nguyenvo > Array
+(
+    [`wp_newsletter`] => Created table `wp_newsletter`
+)
+
+07-10-2024 16:10:07 - INFO  - 8.5.4 - 82.9 MB/512 MB - nguyenvo > Array
+(
+    [`wp_newsletter_user_logs`] => Created table `wp_newsletter_user_logs`
+)
+
+07-10-2024 16:10:07 - INFO  - 8.5.4 - 82.9 MB/512 MB - nguyenvo > Array
+(
+    [`wp_newsletter_user_meta`] => Created table `wp_newsletter_user_meta`
+)
+
+07-10-2024 16:10:07 - INFO  - 8.5.4 - 82.9 MB/512 MB - nguyenvo > Array
+(
+    [`wp_newsletter_stats`] => Created table `wp_newsletter_stats`
+)
+
+07-10-2024 16:10:07 - INFO  - 8.5.4 - 82.9 MB/512 MB - nguyenvo > Array
+(
+    [`wp_newsletter_logs`] => Created table `wp_newsletter_logs`
+)
+
+07-10-2024 16:10:07 - INFO  - 8.5.4 - 82.9 MB/512 MB - nguyenvo > Backing up options of 0.0.0
+07-10-2024 16:10:07 - INFO  - 8.5.4 - 82.9 MB/512 MB - nguyenvo > End

@@ -1,0 +1,131 @@
+.hrix-special-product .onsale {
+    font-weight: 700;
+    position: absolute;
+    text-align: center;
+    z-index: 9;
+    top: 0;
+    left: 0;
+    padding: 5px 10px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    margin: 10px;
+    min-width: auto;
+    min-height: auto;
+    line-height: normal;
+    background: #ec2635;
+    font-size: 0.7rem;
+}
+
+.hrix-special-product .svg {
+    width: 30px;
+    height: 30px;
+    padding: 5px;
+    border: 1px solid #ddd;
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+}
+
+.hrix-special-product .leftstock {
+    color: #ec2635;
+    font-size: 0.7rem;
+    font-weight: 700;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin: 0 0 10px 10px;
+}
+
+.hrix-special-product .product-title {
+    font-size: 1rem;
+    margin: 0.5rem 0;
+    padding: 0;
+    font-weight: 600;
+    width: 100%;
+}
+
+.hrix-special-product .product-rating {
+    font-weight: 700;
+    width: 55px;
+}
+
+.hrix-special-product .product-rating .star-rating {
+    overflow: hidden;
+    position: relative;
+    height: 1em;
+    line-height: 1;
+    font-family: star;
+    display: block;
+    margin: 0 4px 0 0;
+    width: 14px;
+    font-size: .857em;
+}
+
+.hrix-special-product .product-rating .star-rating::before {
+    content: "S";
+    color: #cfc8d8;
+    float: left;
+    top: 0;
+    left: 0;
+    position: absolute;
+}
+
+.hrix-special-product .product-rating .star-rating span {
+    overflow: hidden;
+    float: left;
+    top: 0;
+    left: 0;
+    position: absolute;
+    padding-top: 1.5em;
+}
+
+.hrix-special-product .product-rating .star-rating span::before {
+    content: "S";
+    top: 0;
+    position: absolute;
+    left: 0;
+}
+
+.hrix-special-product .hrix-price .price {
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin: 0;
+    width: 100%;
+    display: block;
+}
+
+.hrix-special-product .hrix-price .price del {
+    font-size: 0.8rem;
+    display: block;
+    opacity: .5;
+}
+
+.hrix-special-product .hrix-price .price ins {
+    background: 0 0;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+.hrix-special-product .hrix-timer {
+    display: flex;
+    gap: 0.5rem;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.hrix-special-product .hrix-timer span {
+    border: 1px solid #ccc;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    font-weight: 700;
+    font-size: 1.2rem;
+
+}

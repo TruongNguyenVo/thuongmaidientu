@@ -1,0 +1,63 @@
+.hrix-member .team-item {
+    transition: .5s;
+}
+
+.hrix-member .team-social {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: .5s;
+}
+
+.hrix-member .team-social a.btn {
+    position: relative;
+    margin: 0 3px;
+    margin-top: 100px;
+    opacity: 0;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+
+.hrix-member .team-social svg{
+    width: 18px;
+    height: 18px;
+}
+
+.hrix-member .team-item:hover .team-social a.btn:first-child {
+    opacity: 1;
+    margin-top: 0;
+    transition: .3s 0s;
+}
+
+.hrix-member .team-item:hover .team-social a.btn:nth-child(2) {
+    opacity: 1;
+    margin-top: 0;
+    transition: .3s .05s;
+}
+
+.hrix-member .team-item:hover .team-social a.btn:nth-child(3) {
+    opacity: 1;
+    margin-top: 0;
+    transition: .3s .1s;
+}
+
+.hrix-member .team-item:hover .team-social a.btn:nth-child(4) {
+    opacity: 1;
+    margin-top: 0;
+    transition: .3s .15s;
+}
+
+.hrix-member .team-item .team-img img,
+.blog-item .blog-img img {
+    transition: .5s;
+}
+
+.hrix-member .team-item:hover .team-img img,
+.blog-item:hover .blog-img img {
+    transform: scale(1.15);
+}

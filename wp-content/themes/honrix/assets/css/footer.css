@@ -1,0 +1,27 @@
+.site-footer .inner-footer {
+    display: flex;
+  }
+  
+  .site-footer .footer {
+    margin: 0 15px;
+  }
+  
+  .site-footer .inner-footer.column-1 .footer {
+    width: 100%;
+  }
+  
+  .site-footer .inner-footer.column-2 .footer {
+    width: 50%;
+  }
+  
+  .site-footer .inner-footer.column-3 .footer {
+    width: 33.333333%;
+  }
+  
+  .site-footer .footer:first-child {
+    margin: 0 15px 0 0;
+  }
+  
+  .site-footer .footer:last-child {
+    margin: 0 0 0 15px;
+  }

@@ -1,0 +1,31 @@
+.hrix-testimonial .owl-dots {
+  margin-top: 15px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.hrix-testimonial .owl-dot {
+  position: relative;
+  display: inline-block;
+  margin: 0 5px;
+  width: 15px;
+  height: 15px;
+  border-radius: 2px;
+  transition: .5s;
+}
+
+.hrix-testimonial .owl-dot.active {
+  width: 30px;
+}
+
+.hrix-testimonial .owl-item.center {
+  position: relative;
+  z-index: 1;
+}
+
+.hrix-testimonial .owl-item .testimonial-item {
+  transition: .5s;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+}

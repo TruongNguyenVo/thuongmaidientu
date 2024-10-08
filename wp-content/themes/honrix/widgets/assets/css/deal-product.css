@@ -1,0 +1,103 @@
+.hrix-deal-product {
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    overflow: hidden;
+    border: 1px solid #ccc;
+}
+
+.hrix-deal-product .onsale {
+    font-weight: 700;
+    position: absolute;
+    text-align: center;
+    z-index: 9;
+    top: 0;
+    left: 0;
+    padding: 5px 10px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    margin: 10px;
+    min-width: auto;
+    min-height: auto;
+    line-height: normal;
+    background: #ec2635;
+    font-size: 0.7rem;
+}
+
+.hrix-deal-product .product-title {
+    font-size: 1rem;
+    margin: 0.5rem 0;
+    padding: 0;
+    font-weight: 600;
+    width: 100%;
+}
+
+.hrix-deal-product .product-rating {
+    font-weight: 700;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.hrix-deal-product .product-rating .star-rating {
+    width: 5.4em;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    height: 1em;
+    line-height: 1;
+    font-family: star;
+    display: block;
+    margin: 0 4px 0 0;
+    font-size: .857em;
+}
+
+.hrix-deal-product .product-rating .star-rating::before {
+    content: "SSSSS";
+    color: #cfc8d8;
+    float: left;
+    top: 0;
+    left: 0;
+    position: absolute;
+}
+
+.hrix-deal-product .product-rating .star-rating span {
+    overflow: hidden;
+    float: left;
+    top: 0;
+    left: 0;
+    position: absolute;
+    padding-top: 1.5em;
+}
+
+.hrix-deal-product .product-rating .star-rating span::before {
+    content: "SSSSS";
+    top: 0;
+    position: absolute;
+    left: 0;
+}
+
+.hrix-deal-product .price {
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin: 0;
+    display: block;
+}
+
+.hrix-deal-product .price del {
+    font-size: 0.8rem;
+    display: block;
+    opacity: .5;
+}
+
+.hrix-deal-product .price ins {
+    background: 0 0;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+.hrix-deal-product .progress{
+    height: 0.5rem;
+}
