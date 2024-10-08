@@ -68,7 +68,7 @@ $media->alt = $options['image_alt'];
         <td align="<?php echo esc_attr($options['align']); ?>">
 
             <?php if ($media->link) { ?>
-                <a href="', esc_attr($media->link), '" target="_blank" rel="noopener nofollow" style="display: block; font-size: 0; text-decoration: none; line-height: normal!important">';
+                <a href="<?php echo esc_attr($media->link); ?>" target="_blank" rel="noopener nofollow" style="display: block; font-size: 0; text-decoration: none; line-height: normal!important">';
                 <?php } ?>
 
                 <img src="<?php echo esc_attr($media->url); ?>" width="<?php echo esc_attr($media->width); ?>"
@@ -77,7 +77,7 @@ $media->alt = $options['image_alt'];
                      border="0" style="display: block; height: auto; max-width: <?php echo esc_attr($media->width); ?>px !important; width: 100%; padding: 0; border: 0; font-size: 12px">
 
                 <?php if ($media->link) { ?>
-                    echo '</a>';
+                </a>
             <?php } ?>
 
         </td>

@@ -83,28 +83,32 @@ $fields->block_style('', [
         <div class="tnp-field-row">
             <label class="tnp-row-label"><?php _e('Post info', 'newsletter') ?></label>
             <div class="tnp-field-col-4">
-                <?php $fields->checkbox('show_date', __('Show date', 'newsletter')) ?>
+                <?php $fields->yesno('show_date', __('Date', 'newsletter')) ?>
             </div>
             <div class="tnp-field-col-4">
-                <?php $fields->checkbox('show_author', __('Show author', 'newsletter')) ?>
+                <?php $fields->yesno('show_author', __('Author', 'newsletter')) ?>
             </div>
             <div class="tnp-field-col-4">
-                <?php $fields->checkbox('show_image', __('Show image', 'newsletter')) ?>
+                <?php $fields->yesno('show_image', __('Image', 'newsletter')) ?>
             </div>
             <div class="tnp-field-col-4">
-                <?php $fields->checkbox('nocrop', __('No crop', 'newsletter')) ?>
+                <?php $fields->yesno('image_crop', __('Image crop', 'newsletter')) ?>
             </div>
             <div style="clear: both"></div>
         </div>
+
         <div class="tnp-field-row">
-            <div class="tnp-field-col-3">
+            <div class="tnp-field-col-4">
                 <?php $fields->number('excerpt_length', __('Excerpt length', 'newsletter'), array('min' => 0)); ?>
             </div>
-            <div class="tnp-field-col-3">
+            <div class="tnp-field-col-4">
                 <?php $fields->select('excerpt_length_type', 'Count', ['' => __('Words', 'newsletter'), 'chars' => __('Chars', 'newsletter')]); ?>
             </div>
-            <div class="tnp-field-col-3">
-                <?php $fields->yesno('show_read_more_button', 'Show read more button') ?>
+            <div class="tnp-field-col-4">
+                <?php $fields->yesno('show_read_more_button', __('Button', 'newsletter')); ?>
+            </div>
+            <div class="tnp-field-col-4">
+
             </div>
             <div style="clear: both"></div>
         </div>

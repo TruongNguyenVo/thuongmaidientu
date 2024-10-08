@@ -166,7 +166,7 @@ if (empty($this->get_option('page'))) {
 
                 <li>
                     <div>
-                        <h2><?php esc_html_e('Subscription and Edit<br>page creation', 'newsletter'); ?></h2>
+                        <h2><?php esc_html_e('Subscription and Edit page creation', 'newsletter'); ?></h2>
                         <p><?php esc_html_e('We\'ve just created the page where your visitors will subscribe and where they will edit their preferences.', 'newsletter'); ?></p>
                     </div>
                 </li>

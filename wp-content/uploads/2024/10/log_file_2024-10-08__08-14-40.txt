@@ -1,0 +1,67 @@
+
+---Downloaded files---
+The import files for: Honrix were successfully downloaded!
+Initial max execution time = 36000
+Files info:
+Site URL = http://localhost/thuongmaidientu
+Data file = E:\Lenovo\laragon\www\thuongmaidientu/wp-content/uploads/2024/10/demo-content-import-file_2024-10-08__08-14-40.xml
+Widget file = E:\Lenovo\laragon\www\thuongmaidientu/wp-content/uploads/2024/10/demo-widgets-import-file_2024-10-08__08-14-40.json
+Customizer file = E:\Lenovo\laragon\www\thuongmaidientu/wp-content/uploads/2024/10/demo-customizer-import-file_2024-10-08__08-14-40.dat
+Redux files:
+not defined!
+
+---Importing widgets---
+Top Left : 
+
+Khối - No Title - Widget already exists
+
+Top Center : 
+
+Khối - No Title - Widget already exists
+
+Top Right : 
+
+Khối - No Title - Widget already exists
+
+Header Contact : 
+
+Khối - No Title - Widget already exists
+
+Header Navigation Area : 
+
+Khối - No Title - Widget already exists
+
+Shop Left Sidebar : 
+
+Khối - No Title - Widget already exists
+Khối - No Title - Widget already exists
+
+Footer Column 1 : 
+
+Khối - No Title - Widget already exists
+Khối - No Title - Widget already exists
+Khối - No Title - Widget already exists
+
+Footer Column 2 : 
+
+Menu - Let Us Help You - Widget already exists
+
+Footer Column 3 : 
+
+Khối - No Title - Widget already exists
+
+Copyright Widgets : 
+
+Khối - No Title - Widget already exists
+
+Mobile Top Bar : 
+
+Khối - No Title - Widget already exists
+
+
+
+---Importing customizer settings---
+Customizer settings import finished!
+
+---ocdi/after_import---
+

@@ -1,5 +1,5 @@
 <?php
-$size = array(600, 400, !empty($options['nocrop']));
+$size = array(600, 400, $image_crop);
 $total_width = $composer['width'] - $options['block_padding_left'] - $options['block_padding_right'];
 $column_width = $total_width / 2 - 20;
 

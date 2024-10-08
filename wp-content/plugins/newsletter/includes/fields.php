@@ -77,7 +77,7 @@ class NewsletterFields {
     public function checkbox($name, $label = '', $attrs = []) {
         $attrs = $this->_merge_base_attrs($attrs);
         $this->_open('tnpf-checkbox');
-        $this->controls->checkbox($name, $label);
+        $this->controls->checkbox2($name, $label);
         $this->_description($attrs);
         $this->_close();
     }

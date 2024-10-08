@@ -29,7 +29,7 @@ $defaults = array(
     'title_font_size' => '',
     'title_font_color' => '',
     'title_font_weight' => '',
-    'nocrop' => 0,
+    'image_crop' => 1,
     'max' => 4,
     'private' => '',
     'reverse' => '',
@@ -99,12 +99,21 @@ $styles = [
     ]
 ];
 
-// Backward compatibility
+// Migration
 if (isset($options['automated_required'])) {
     $defaults['automated'] = '1';
 }
+// Migration end
 
 $options = array_merge($defaults, $options);
+
+// Migration
+if (isset($options['nocrop'])) {
+    $options['image_crop'] = 0;
+}
+// Migration end
+
+
 $block_style = $options['block_style'] ?? '';
 $options = array_merge($options, $styles[$block_style] ?? []);
 
@@ -188,6 +197,7 @@ $excerpt_length_in_chars = $options['excerpt_length_type'] == 'chars';
 $show_image = !empty($options['show_image']);
 $show_date = !empty($options['show_date']);
 $show_author = !empty($options['show_author']);
+$image_crop = !empty($options['image_crop']);
 
 $title_font_family = empty($options['title_font_family']) ? $global_title_font_family : $options['title_font_family'];
 $title_font_size = empty($options['title_font_size']) ? round($global_title_font_size * 0.8) : $options['title_font_size'];

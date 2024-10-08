@@ -279,36 +279,15 @@ class TNP_Composer {
             }
         }
 
-        //if (isset($controls->data['preheader'])) {
-        //    $email->options['preheader'] = $controls->data['preheader'];
-        //}
-
         $email->editor = NewsletterEmails::EDITOR_COMPOSER;
-        //add_filter('wp_kses_allowed_html', [self::class, 'hook_wp_kses_allowed_html'], 9999, 2);
-        //add_filter('safe_style_css', [self::class, 'hook_safe_style_css'], 9999);
-        //$message = wp_kses_post($controls->data['message']);
         $message = $controls->data['message'];
-        //remove_filter('safe_style_css', [self::class, 'hook_safe_style_css']);
-        //remove_filter('wp_kses_allowed_html', [self::class, 'hook_wp_kses_allowed_html']);
 
         $email->message = self::get_html_open($email) . self::get_main_wrapper_open($email) .
                 $message . self::get_main_wrapper_close($email) . self::get_html_close($email);
     }
 
-    static function hook_safe_style_css($rules) {
-        $rules[] = 'display';
-        return $rules;
-    }
-
-//    static function hook_wp_kses_allowed_html($allowedposttags, $context) {
-//        $allowedposttags['table'][] = 'role';
-//        $allowedposttags['table'][] = 'style';
-//        $allowedposttags['table'][] = 'inline-class';
-//        $allowedposttags['td'][] = 'inline-class';
-//    }
-
     /**
-     * Prepares a controls object injecting the relevant fields from an email
+     * Prepares a NewsletterControls object injecting the relevant fields from an email
      * which cannot be directly used by controls. If $email is null or missing,
      * $controls is prepared with default values.
      *
